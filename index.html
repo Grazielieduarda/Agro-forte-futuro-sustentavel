@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroForte | Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
 
+    <header>
+        <div class="container navbar">
+            <div class="logo">
+                <i class="fa-solid fa-leaf"></i> Agro<span>Forte</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#tecnologias">Tecnologias</a></li>
+                    <li><a href="#contato" class="btn-nav">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>O Futuro da Agricultura é <span>Sustentável</span></h1>
+            <p>Unindo tecnologia de ponta e respeito à natureza para cultivar um amanhã melhor.</p>
+            <a href="#tecnologias" class="btn-primary">Conheça Nossas Soluções</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="container section">
+        <div class="sobre-container">
+            <div class="sobre-texto">
+                <h2>Quem Somos</h2>
+                <p>A <strong>AgroForte</strong> nasceu com a missão de transformar o cenário agrícola tradicional. Acreditamos que a produtividade no campo não precisa colidir com a preservação ambiental. Por isso, desenvolvemos e aplicamos métodos que otimizam recursos e protegem a biodiversidade.</p>
+            </div>
+            <div class="sobre-cards">
+                <div class="card-mini">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <h3>Eco-Eficiência</h3>
+                    <p>Redução drástica no desperdício de água e insumos.</p>
+                </div>
+                <div class="card-mini">
+                    <i class="fa-solid fa-seedling"></i>
+                    <h3>Alta Produtividade</h3>
+                    <p>Tecnologia que aumenta a colheita de forma orgânica.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologias" class="tech-section">
+        <div class="container">
+            <h2 class="section-title">Inovações para o Campo</h2>
+            <div class="grid-tech">
+                <div class="tech-card">
+                    <i class="fa-solid fa-droplet"></i>
+                    <h3>Irrigação Inteligente</h3>
+                    <p>Sistemas automatizados por sensores que utilizam apenas a quantidade exata de água necessária para cada cultura.</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fa-solid fa-solar-panel"></i>
+                    <h3>Energia Limpa</h3>
+                    <p>Fazendas movidas a energia solar e biomassa, reduzindo a pegada de carbono da produção ao zero.</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fa-solid fa-wheat-awn"></i>
+                    <h3>Manejo Biológico</h3>
+                    <p>Uso de inteligência de dados e defensivos biológicos para proteger a lavoura sem agredir o ecossistema.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="container section">
+        <div class="contato-box">
+            <h2>Fale Conosco</h2>
+            <p>Quer saber como levar a sustentabilidade para a sua produção? Envie uma mensagem!</p>
+            
+            <form id="form-contato">
+                <div class="input-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" required placeholder="Seu nome completo">
+                </div>
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required placeholder="seu.email@exemplo.com">
+                </div>
+                <div class="input-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" rows="5" required placeholder="Como podemos te ajudar?"></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+            <div id="feedback-form" class="hidden"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 AgroForte - Futuro Sustentável. Todos os direitos reservados.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
